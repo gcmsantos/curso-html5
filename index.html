@@ -3,21 +3,25 @@
     <head>
         <meta charset="uft-8"> 
         <title>Glauber Cardoso</title>
+        <link rel="stylesheet" href="style.css"> 
     </head>
+
     <body>
-        <header>    
-            <h1>Glauber Cardoso</h1>
+        <header>
+            <img src="img/user.png" alt="Foto do usuário">    
+            <h1 id="title">Glauber Cardoso</h1>
         </header>
 
         <header>   
             <section>  
                 <header>    
-                    <h2>Posts</h2>
+                    <h2 class="subtitle">Posts</h2>
                 </header>
                 
-                <article>
+                <article class="post">
                     <header>
-                        <h3>Post #1</h3>
+                        <h3 class="post_title">Post #1</h3>
+                        <img src="img/code.png" alt="Imagem com code da postagem">
                     </header>
 
                     <p>
@@ -35,8 +39,31 @@
             </section>
         </header>
 
-        <footer>
-            
+        <footer> <!-- Rodapé da página HTML -->
+            <ul> <!-- TAG ul - Listas não ordenadas-->
+                <li> 
+                    <a href="mailto:eu@eu.com">eu@eu.com</a> 
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com" target="_blank">Linkedin</a>
+                </li>
+                <li>
+                    <a href="https://github.com" target="blank">Github</a>
+                </li>
+            </ul>
+
+            <ol> <!-- TAG ol - Listas ordenadas -->
+                <li> 
+                    <a href="mailto:eu@eu.com">eu@eu.com</a> 
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com" target="_blank">Linkedin</a>
+                </li>
+                <li>
+                    <a href="https://github.com" target="blank">Github</a>
+                </li>
+            </ol>
+
         </footer>
     </body>
 </html>
